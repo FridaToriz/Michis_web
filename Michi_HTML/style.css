@@ -1,0 +1,47 @@
+/*Así se ponen los comentarios*/
+body{
+    background-color: rgba(224, 239, 240, 0.865);
+    color:rgb(0, 0, 0);
+    font-family: 'Merriweather', serif;
+    background-image: url(Repositorio/Catwallpaper.jpg); background-blend-mode:soft-light;
+    text-align: justify;
+}
+.GatoTrapo{
+    text-align: center;
+    text-shadow: 1px 1px 2px rgb(222, 48, 48);
+    font-style: oblique;
+    font-weight: 800;
+}
+p{
+    color:black;
+    font-weight: normal;
+}
+
+/*Para agregar una clase se pone un punto antes del nombre*/
+.Título-web{
+    color: rgb(0, 0, 0);
+    font-size: 50px;
+}
+.GatosPopulares{
+    width: 600px;
+    height: 400px;
+}
+.PanteraRosa{
+    width: 200px;
+    height: 400px;
+}
+.WikiCat{
+    width: 200px;
+}
+input[type=radio]{
+    accent-color:rgb(199, 21, 133); 
+}
+input[type=checkbox]{
+    accent-color: rgb(0, 128, 128);
+}
+
+
+
+
+
+

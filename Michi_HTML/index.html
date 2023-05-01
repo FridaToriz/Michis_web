@@ -1,0 +1,131 @@
+<!--Así se agregan comentarios-->
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+       <!--Títulos-->
+       <title> Michi Web .....-</title>
+       <!--Con lo siguiente se enlaza el archivo css al html-->
+       <link rel="stylesheet" href="style.css">
+       <!--Es el código de google fonts-->
+       <link rel="preconnect" href="https://fonts.googleapis.com">
+       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+       <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <!--división de prueba-->
+       <div class="GatoTrapo">
+        <h1>Este era un gato</h1>
+        <h2>con los pies de trapo</h2>
+        <h3>y los ojos al revés</h3>
+        <h4>¿Quieres que te lo cuente otra vez?</h4>
+        <h5>¿Sí? Regresa al principio</h5>
+        <h6>¿No? Sigue adelante</h6>
+       </div> 
+        
+        <p>Este es un sitio web de práctica con temática de gatos</p>
+
+        <h1 class="Título-web">Michis en la cultura pop</h1>
+        <!--La clase sirve para modificar elementos específicos en css, tiene que estar dentro de la etiqueta de apertura-->
+        <main>
+            <h3>Los gatos han acompañado a la humanidad desde hace miles de años pero, a diferencia de los perros...ellos nos domesticaron</h3>
+            <img class="Pintura" src="https://i.pinimg.com/236x/46/39/3b/46393b7f6319fcd3ca0722d816183d56--crowns-oil.jpg">
+            <h3>A su vez los gatos han sido una fuente de inspiración para numerosas historias de todo tipo</h3>
+            <br> <!--Br es para separa dos imágenes y que una salga debajo de la otra-->
+            <img class="GatosPopulares" src="Repositorio/GatosPopulares.jpg">
+
+        <div> <!--Divide el texto-->
+            <p><strong>Arte</strong> inspirado en michis </p> 
+            <!--Strong hace letras en negritas-->
+            <p><em>Sin ningún orden en particular</em></p>
+            <!--em hace cursivas-->
+            <!--Lista no ordenada (ul)-->
+           <ul>
+                <li>Música</li>
+                <li>Pinturas</li>
+                <li>Poemas</li>
+                <li>Películas</li>
+                <li>Cuentos</li>
+           </ul> 
+           
+           <p>Nombres más populares para un gato</p>
+           <!--Lista ordenada (ol)-->
+           <ol>
+            <li>Luna</li>
+            <li>Salem</li>
+            <li>Félix</li>
+            <li>Simba</li>
+           </ol>
+        <div>  
+           <p><strong>Tres gatos que marcaron mi infancia</strong></p>
+           <!--Enlaces internos (a) anchor-->
+           <a href="#parrafo-1">Plutón</a>
+           <a href="#parrafo-2">La Pantera rosa</a>
+           <a href="#parrafo-3">Mino y su pandilla</a>
+
+           <h3 id="parrafo-1">Plutón</h3>
+           <p>Proveniente de un cuento de Edgar Allan Poe, este gato me causó una sensación de temor a los ocho años</p>
+           <p>Recuerdo que me pareció increíble la manera en la que su presencia atormentaba a su dueño ya que le recordaba el mal que había hecho.</p>
+           <p>Lo que nunca olvidaré es el escalofrío que recorrió mi espalda cuando llegué al final de la historia</p>
+        
+           <p>Puedes leer la obra <a href="https://acortar.link/ZEQrge">aquí</a></p>
+
+           <h3 id="parrafo-2">La Pantera Rosa</h3>
+           <p>Si bien técnicamente no es un gato, es un felino y una de mis caricaturas favoritas</p>
+           <p>Su icónica introducción estilo jazz, los capítulos cortos y divertidos, y el hecho de que no hubiera diálogos hicieron que esta serie creada en 1963 me gustara tanto que, a los seis años, le pedí a mi mamá una fiesta de cumpleaños temática de la pantera rosa</p>
+           <a href="https://www.youtube.com/watch?v=umM9Ls0SaiU"><img class="PanteraRosa" src="Repositorio/PinkP.png"></a>
+
+           <h3 id="parrafo-3">Mino y su pandilla</h3>
+           <p>Mino es un gato negro co-protagonista de la novela infantil "Ladridos y Conjuros" escrita por Verónica Murguía en 2005</p>
+           <p>La novela, situada en el Parque San Lorenzo de la Ciudad de México, retrata la legendaria enemistad entre perros y gatos, siendo Mino, un gato negro que tiene la habilidad de volverse invisible y hacer magia, el líder del bando gatuno que se enfrenta a Mago, un perro labrador y sus amigos. Sin embargo, tras una serie de eventos misteriosos ambos bandos deciden establecer una tregua para poder resolver el misterio del Parque San Lorenzo.</p>
+           <p>Le guardo un especial cariño a este libro porque fue de mis primeros libros "para grandes" y recuerdo la emoción que me causó leerlo ya que el parque San Lorenzo queda bastante cerca de mi casa, fue inreíble leer una historia que se desarrollaba a tan sólo unas cuadras de mi casa</p>
+        </div> 
+        <!--Enlaces externos-->
+        <p><a href="https://www.cervantesvirtual.com/obra-visor/el-folklore-del-gato/html/"> Aquí</a> hay un artículo sobre el Folklor gatuno </p>
+        <p>Y si das click en la siguiente imagen te llevará a un artículo de Wikipedia sobre <em>Felis silvestris catus</em> es decir: Gato común</p>
+        <a href="https://es.wikipedia.org/wiki/Felis_silvestris_catus"><img class="WikiCat" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Michis.png/330px-Michis.png" alt="Gata tricolor"></a>
+        <!--Formulario con radio, círculos que sólo permiten escoger una opción-->
+        <p>¿Tienes gato? Si tienes más de uno, escoge uno solamente</p>
+        <label for="Sí">
+            <input id="sí" type="radio" value="afirmación" name="tenencia"> Sí
+        </label>
+        <label for="no">
+            <input id="No" type="radio" value="negación" name="tenencia"> No
+        </label>
+        <p>¿Cuál es su nombre?</p>
+        <label for="Nombre">
+            <input id="Nombre" type="text"
+            aria-valuetext="" name="Nombre">
+        </label>
+        <p>¿Tu michi es cachorro (2 años o menos) o adulto?</p>
+        <!--Opción cachorro-->
+        <label for="cachorro">
+            <input id="cachorro" type="radio" value="cachorro" name="edad"> cachorro
+        </label>
+       <!--Opción adulto-->
+        <label for="adulto">
+            <input id="adulto" type="radio" value="adulto" name="edad"> adulto
+        </label> 
+        <!--Formulario con checkbox, permite escoger más de una opción-->
+        <p>¿Cómo describirías a tu gato? Puedes escoger más de una opción</p>
+        <label for="Juguetón">
+            <input id="Juguetón" type="checkbox" value="Juguetón" name="personalidad"> Juguetón
+        </label>
+        <label for="Tímido">
+            <input id="Tímido" type="checkbox" value="Tímido" name="personalidad"> Tímido
+        </label>
+        <label for="Dormilón">
+            <input id="Dormilón" type="checkbox" value="Dormilón" name="personalidad"> Dormilón
+        </label>
+        <label for="Huraño">
+            <input id="Huraño" type="checkbox" value="Huraño" name="personalidad"> Huraño
+        </label>
+        <label for="Curioso">
+            <input id="Curioso" type="checkbox" value="Curioso" name="personalidad"> Curioso
+        </label>   
+        </main>
+        <footer>
+            <p><em>Página creada por Frida Toríz durante el curso de</em> <a href="https://tecnolochicas.mx/">Tecnolochicas Pro</a></p>
+        </footer>
+    </body>
+</html>
+
